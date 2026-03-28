@@ -1,18 +1,18 @@
 def printLine():
     print("*"*50)
 
+def add(a, b):
+    print("addition = ", a+b)
+
+def sub(a, b):
+    return a - b
+
 printLine()
 print("welcome to user defined functions demo in python")
 printLine()
 
-def add(a, b):
-    print("addition = ", a+b)
-
 add(5, 10)
 printLine()
-
-def sub(a, b):
-    return a - b
 
 ans = sub(10, 4)
 print("subtraction = ", ans)
